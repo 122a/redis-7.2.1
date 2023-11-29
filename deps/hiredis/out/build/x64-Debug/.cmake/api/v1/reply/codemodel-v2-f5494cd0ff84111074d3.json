@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hiredis",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hiredis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hiredis-Debug-2206b83f82c9939e6160.json",
+					"name" : "hiredis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hiredis-test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hiredis-test-Debug-e29fa78560af2ae9a1d6.json",
+					"name" : "hiredis-test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/1/Downloads/redis-7.2.1/deps/hiredis/out/build/x64-Debug",
+		"source" : "C:/Users/1/Downloads/redis-7.2.1/deps/hiredis"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
